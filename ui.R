@@ -28,7 +28,8 @@ fluidPage(
     mainPanel(
       tabsetPanel(
         tabPanel("Stock Data", DTOutput("stock_table"), plotOutput("stock_plot")),
-        tabPanel("Stock vs. Nifty", plotOutput("comparison_plot"))
+        tabPanel("Stock vs. Nifty", plotOutput("comparison_plot")),
+        tabPanel("Black vs. Red", DTOutput("black_red_table")) # New tab for Black vs. Red
       )
     )
   )
