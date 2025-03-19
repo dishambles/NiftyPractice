@@ -1,4 +1,4 @@
-# server.R
+source("dependencies.R")# server.R
 
 library(shiny)
 library(quantmod)
